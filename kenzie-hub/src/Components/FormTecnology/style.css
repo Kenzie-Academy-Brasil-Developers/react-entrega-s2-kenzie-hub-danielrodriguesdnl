@@ -1,0 +1,116 @@
+.Div-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 310px;
+  height: 502px;
+  background: #212529;
+  box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.Div-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 310px;
+  background: #343b41;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.Div-header h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f8f9fa;
+  margin: 20px;
+}
+
+.Div-header button {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  background: #343b41;
+  color: #868e96;
+  border: none;
+  margin: 20px;
+}
+
+.Form-insertCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 310px;
+  height: 342px;
+  background: #212529;
+  box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.Form-insertCard h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f8f9fa;
+}
+
+.Form-insertCard button {
+  width: 280px;
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 4.06066px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #ff577f;
+  border: 1.2182px solid #ff577f;
+}
+
+.Div-insertCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Div-insertCard h3 {
+  font-weight: normal;
+  font-size: 12.182px;
+  line-height: 0px;
+  color: #f8f9fa;
+}
+
+.Div-insertCard input {
+  width: 260px;
+  height: 48px;
+  background: #343b41;
+  border: 1.2182px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 16.2426px;
+  line-height: 26px;
+  color: #f8f9fa;
+}
+
+.Div-insertCard select {
+  width: 260px;
+  height: 48px;
+  background: #343b41;
+  border: 1.2182px solid #343b41;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 16.2426px;
+  line-height: 26px;
+  color: #868e96;
+}

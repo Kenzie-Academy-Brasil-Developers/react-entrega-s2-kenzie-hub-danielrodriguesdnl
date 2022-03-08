@@ -1,0 +1,134 @@
+.Div-app {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Div-Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  background: #121214;
+  border-bottom: 1px solid #212529;
+}
+
+.Div-Header h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ff577f;
+  margin: 20px;
+}
+
+.Div-Header button {
+  width: 55px;
+  height: 32px;
+  background: #212529;
+  border-radius: 4px;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #f8f9fa;
+  margin: 20px;
+}
+
+.Form-singup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 310px;
+  height: 811px;
+  background: #212529;
+  box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+}
+
+.Form-singup h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f8f9fa;
+}
+
+.Form-singup span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #868e96;
+}
+
+.Form-singup button {
+  width: 280px;
+  height: 48px;
+  background: #59323f;
+  border: 1.2182px solid #59323f;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.Div-input {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Div-input p {
+  height: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #868e96;
+}
+
+.Div-input h3 {
+  font-weight: normal;
+  font-size: 12.182px;
+  line-height: 0px;
+  color: #f8f9fa;
+}
+
+.Div-input input {
+  width: 260px;
+  height: 48px;
+  background: #343b41;
+  border: 1.2182px solid #343b41;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 16.2426px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+.Div-input select {
+  width: 260px;
+  height: 48px;
+  background: #343b41;
+  border: 1.2182px solid #343b41;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 16.2426px;
+  line-height: 26px;
+  color: #868e96;
+}

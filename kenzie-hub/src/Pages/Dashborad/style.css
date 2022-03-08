@@ -1,0 +1,116 @@
+.Div-app {
+  width: 100vw;
+}
+
+.Header-dash {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  background: #121214;
+  border-bottom: 1px solid #212529;
+}
+
+.Header-dash h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ff577f;
+  margin: 20px;
+}
+
+.Header-dash button {
+  width: 55px;
+  height: 32px;
+  background: #212529;
+  border-radius: 4px;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #f8f9fa;
+  margin: 20px;
+}
+
+.Div-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 118px;
+  background: #121214;
+  border-bottom: 1px solid #212529;
+}
+
+.Div-name h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f8f9fa;
+  margin: 20px;
+}
+
+.Div-name span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+  margin: 20px;
+}
+
+.Div-tecnology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 118px;
+  background: #121214;
+}
+
+.Div-tecnology h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f8f9fa;
+  margin: 20px;
+}
+
+.Div-tecnology button {
+  align-items: center;
+  background: #212529;
+  border-radius: 4px;
+  border: none;
+  margin: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f8f9fa;
+}
+
+.Div-dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #212529;
+  border-radius: 4px;
+}
