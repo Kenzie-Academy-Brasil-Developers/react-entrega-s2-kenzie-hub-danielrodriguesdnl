@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import "./style.css";
 
-const Form = ({ setModal }) => {
-  const loginSchema = yup.object().shape({
+const Form = ({ setModal, loadTechs }) => {
+  const formSchema = yup.object().shape({
     title: yup.string().required("Campo obrigatório"),
     status: yup.string().required("Campo obrigatório"),
   });
@@ -15,16 +15,22 @@ const Form = ({ setModal }) => {
     handleSubmit,
     formState: { errors },
   } = useForm({
-    resolver: yupResolver(loginSchema),
+    resolver: yupResolver(formSchema),
   });
 
   const onSubmitFunction = (techs) => {
-    console.log({ ...techs });
+    const token = window.localStorage.getItem("authToken");
+
+    console.log(techs);
     axios
-      .post("https://kenziehub.herokuapp.com/users/techs", { ...techs })
+      .post("https://kenziehub.herokuapp.com/users/techs", techs, {
+        headers: { Authorization: `Bearer ${token}` },
+      })
       .then((response) => {
         console.log(response);
-      });
+        loadTechs();
+      })
+      .catch((err) => console.log(err));
   };
 
   return (

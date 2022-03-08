@@ -29,8 +29,7 @@ const Login = ({ authenticated, setAuthenticated }) => {
         console.log(response);
         window.localStorage.clear();
         window.localStorage.setItem("authToken", response.data.token);
-        window.localStorage.setItem("username", response.data.user.name);
-        window.localStorage.setItem("modulo", response.data.user.course_module);
+        window.localStorage.setItem("user", JSON.stringify(response.data.user));
         setAuthenticated(true);
       });
   };
